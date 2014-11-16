@@ -1,6 +1,6 @@
-LinkedList: linkedList.o
-	gcc -o linkedList linkedList.o
-linkedList.o: linkedList.c linkedList.h
-	gcc -c linkedList.c
+LinkedList: LinkedList.o
+	gcc -o LinkedList LinkedList.o
+linkedList.o: LinkedList.c LinkedList.h
+	gcc -c LinkedList.c
 clean:
-	rm -f linkedList.o
+	rm -f *.o
